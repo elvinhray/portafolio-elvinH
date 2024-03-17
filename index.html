@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil Elvin Hernandez</title>
+    <link rel="stylesheet" href="css/CSS.css">
+    <script src='javas.js'></script>
+</head>
+<body>
+        {{>header}}
+        {{>proyectos}}
+    <section class="contacto">
+    <h2>Contacto</h2>
+    <ul>
+        <li>Correo electrónico: <a href="mailto:elvinhray@gmail.com">elvinhray@gmail.com</a></li>
+        <li>Teléfono: <a >+50431823751</a></li>
+    </ul>
+    <div class="comentarios">
+        <label for="comentarios">Añadir un comentario:</label>
+        <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribe aquí tu comentario..."></textarea>
+        <button onclick="enviarComentario()">Enviar Comentario</button>
+    </div>
+    </main>
+</body>
+{{>footer}}
+</html>

@@ -1,0 +1,17 @@
+<section id="eventos">
+            <h2>Proyectos</h2>
+            <p>
+                Hola y bienvenido/a! Es un placer tenerte aquí. Permíteme presentarme , soy Elvin Hernandez, un apasionado por la programación, soy un programador junior. Mi amor por la tecnología y el desarrollo de software me ha llevado a buscar constantemente nuevas formas de aprender y mejorar mis habilidades Desde muy pequeño me he visto interesado en la resolución de problemas y siento que la programación es la manera más pragmática de hacerlo. A continuación te mostrare algunos de los proyectos en los cuales me he visto involucrado y te daré una breve descripción sobre estos
+                </p>
+
+            <ul>
+                 {{#each proyects}}
+                <li>
+                    <h3>{{title}}</h3>
+
+                    <p>{{description}}</p>
+                    <img src="{{url}}" alt="Imagen del evento 1">
+                </li>
+                {{/each}}
+            </ul>
+        </section>
